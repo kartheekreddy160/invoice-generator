@@ -1,0 +1,31 @@
+input{
+    border: none;
+}
+@media print {
+    .no-print { 
+      display: none; 
+    }
+  }
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  input[type='number'] {
+      -moz-appearance: textfield; /* Hide spinners in Firefox */
+  }
+  
+  /* Print-specific styles */
+  @media print {
+    .no-print { 
+      display: none; 
+    }
+  }
+
+
+  #mauli{
+    color: rgb(143, 12, 143);
+    font-size: 30px;
+
+  }
